@@ -1,0 +1,10 @@
+FROM golang:1.9-alpine
+
+RUN apk add --no-cache --virtual .persistent-deps \
+    bash \
+    build-base \
+  && apk add --no-cache --repository http://dl-cdn.alpinelinux.org/alpine/edge/community \
+    upx \
+  && rm -rf /var/cache/apk/*
+
+WORKDIR /go/src/github.com/jzvelc/signaller

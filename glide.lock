@@ -1,0 +1,23 @@
+hash: 136a397f8357f0c0235426a8a3210b9da2f9a0718dcbf49683baaa4c0e29683e
+updated: 2017-10-23T19:53:34.589848749+02:00
+imports:
+- name: github.com/codegangsta/inject
+  version: 33e0aa1cb7c019ccc3fbe049a8262a6403d30504
+- name: github.com/codeskyblue/go-sh
+  version: 703901965097a6b3155c0f6f774efb877b483f64
+- name: github.com/goware/prefixer
+  version: 395022866408d928fc2439f7eac73dd8d370ec1d
+- name: github.com/hashicorp/hcl
+  version: 372e8ddaa16fd67e371e9323807d056b799360af
+  subpackages:
+  - hcl/ast
+  - hcl/parser
+  - hcl/scanner
+  - hcl/strconv
+  - hcl/token
+  - json/parser
+  - json/scanner
+  - json/token
+- name: github.com/mitchellh/mapstructure
+  version: db1efb556f84b25a0a13a04aad883943538ad2e0
+testImports: []

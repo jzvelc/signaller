@@ -1,0 +1,6 @@
+package: github.com/jzvelc/signaller
+import:
+- package: github.com/codeskyblue/go-sh
+- package: github.com/mitchellh/mapstructure
+- package: github.com/hashicorp/hcl
+- package: github.com/goware/prefixer
